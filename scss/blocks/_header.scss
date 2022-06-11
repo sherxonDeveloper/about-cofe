@@ -1,0 +1,26 @@
+// header 
+
+.header .container {
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header {
+    &__nav-list {
+        display: flex;
+        align-items: center;
+    }
+    
+    &__nav-link {
+        text-decoration: none;
+        text-transform: uppercase;
+        margin-left: 33px;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.923077px;
+        color: #83888F;
+    }
+}

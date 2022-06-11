@@ -1,0 +1,166 @@
+// main 
+
+.about .container {
+    background-image: url(../imgs/bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+}
+
+.about {
+    &__lift {
+        padding: 137px 750px 137px 85px;
+    }
+    
+    &__title {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #FEFCF7;
+        margin-bottom: 24px;
+    }
+    
+    &__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FEFCF7;
+    }
+}
+
+// section our 
+
+.our {
+    padding-top: 167px;
+    padding-bottom: 244px;
+    &__commit {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    &__right {
+        width: 539px;
+        margin-left: 125px;
+    }
+    
+    &__heading {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #333D4B;
+        margin-bottom: 32px;
+    }
+    
+    &__text-commit {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+}
+
+// section quality 
+
+.quality .container {
+    background-color: #293039;
+    display: flex;
+    justify-content: center;
+}
+
+.quality {
+    padding-bottom: 168px;
+    &__lift {              
+        padding: 100px 660px 150px 85px;
+    }
+    
+    &__title {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #FEFCF7;
+        margin-bottom: 32px;
+    }
+    
+    &__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FEFCF7;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+    
+    &__inner {
+        display: flex;
+        position: relative;
+    }
+    
+    &__img-cofe {
+        position: absolute;
+        border-radius: 12px;
+        right: 85px;
+        top: -80px;
+    }
+}
+
+.internation .container {
+    padding-left: 85px;
+}
+
+.internation {
+
+    padding-bottom: 168px;
+    
+    &__heading {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+        margin-bottom: 72px;
+    }
+    
+    &__list {
+        display: flex;
+    }
+    
+    &__item {
+        margin-right: 120px;
+    }
+    
+    &__img {
+        margin-bottom: 45px;
+    }
+    
+    &__title {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: #333D4B;
+        margin-bottom: 24px;
+    }
+    
+    &__link {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+    }
+}
+
